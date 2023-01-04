@@ -193,6 +193,6 @@ grading %>%
 :::
 
 
-## Comic books
+## Obscure animals
 
-Once you have read this entire syllabus and [the assignments page](/assignment/), please [click here](mailto:aheiss@gsu.edu) and e-mail me a picture of your favorite comic book character.
+Once you have read this entire syllabus and [the assignments page](/assignment/), please [click here](mailto:aheiss@gsu.edu) and e-mail me a picture of the most obscure animal you can think of.
