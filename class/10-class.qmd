@@ -1,12 +1,8 @@
 ---
-title: "Latin America"
+title: "The OECD"
 date: "2023-03-21"
 ---
 
 ## Readings
 
-Readings on public administration in Latin America TBD!
-
-- {{< fa file-pdf >}}&ensp;[@Chudnovsky:2021]
-
-- {{< fa file-pdf >}}&ensp;[@MunoBriceno:2023]
+Readings on public administration in the OECD TBD!

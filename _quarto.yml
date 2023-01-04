@@ -59,33 +59,31 @@ website:
                   file: class/02-class.qmd
                 - text: "3: Quality of government and governance outcomes"
                   file: class/03-class.qmd
-            - section: "4–9: Comparative bureaucracy and civil society"
-              contents:
-                - text: "4: Bureaucracy and governance outcomes"
+                - text: "4: Institutions"
                   file: class/04-class.qmd
-                - text: "5: Bureaucracy and bureaucratic behavior"
+            - section: "5–9: Comparative bureaucracy and civil society"
+              contents:
+                - text: "5: Bureaucracy and governance outcomes"
                   file: class/05-class.qmd
-                - text: "6: Civil society and good governnace"
+                - text: "6: Bureaucracy and bureaucratic behavior"
                   file: class/06-class.qmd
-                - text: "7: Civil society across countries"
+                - text: "7: Civil society and good governnace"
                   file: class/07-class.qmd
-                - text: "8: Representative bureaucracy and philanthropy"
+                - text: "8: Civil society across countries"
                   file: class/08-class.qmd
-                - text: "9: The OECD"
+                - text: "9: Representative bureaucracy and philanthropy"
                   file: class/09-class.qmd
-            - section: "10–13: Regional deep dives"
+            - section: "10–14: Regional deep dives"
               contents:
-                - text: "10: Latin America"
+                - text: "10: The OECD"
                   file: class/10-class.qmd
-                - text: "11: Africa"
+                - text: "11: Latin America"
                   file: class/11-class.qmd
-                - text: "12: Middle East and North Africa"
+                - text: "12: Africa"
                   file: class/12-class.qmd
-                - text: "13: Asia"
+                - text: "13: Middle East and North Africa"
                   file: class/13-class.qmd
-            - section: "14: Conclusion"
-              contents:
-                - text: "14: Conclusions"
+                - text: "14: Asia"
                   file: class/14-class.qmd
 
     - title: "Assignments"

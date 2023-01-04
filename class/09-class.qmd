@@ -1,8 +1,16 @@
 ---
-title: "The OECD"
+title: "Representative bureaucracy and philanthropy"
 date: "2023-03-07"
 ---
 
 ## Readings
 
-Readings on public administration in the OECD TBD!
+- Readings on participatory grantmaking TBD
+
+- {{< fa file-pdf >}}&ensp;[@MeierMelton:2014]
+
+- {{< fa file-pdf >}}&ensp;[@RiccucciRyzin:2017]
+
+- {{< fa file-pdf >}}&ensp;[@StensotaWangnerudSvensson:2015]
+
+- {{< fa file-pdf >}}&ensp;[@SuzukiAvellaneda:2018]

@@ -1,8 +1,14 @@
 ---
-title: "Civil society and good governance"
+title: "Bureaucratic structures, politicization, and bureaucratic behavior"
 date: "2023-02-14"
 ---
 
 ## Readings
 
-Readings on civil society and good governance TBD!
+- {{< fa file-pdf >}}&ensp;[@Cooper:2018]
+
+- {{< fa file-pdf >}}&ensp;[@ChristensenOpstrup:2018]
+
+- {{< fa file-pdf >}}&ensp;[@OliverosSchuster:2018]
+
+- {{< fa file-pdf >}}&ensp;[@SuzukiHur:2020]

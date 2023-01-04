@@ -19,7 +19,7 @@ base_url <- yaml::read_yaml(here::here("_quarto.yml"))$website$`site-url`
 ical_url_absolute <- paste0(base_url, "/", schedule_ical_file)
 ```
 
-::: {.schedule-page}
+::::: {.schedule-page}
 
 Here's your roadmap for the semester!
 
@@ -27,7 +27,7 @@ Here's your roadmap for the semester!
 
 - [**Assignment**](/assignment/index.qmd) ({{< fa pen-ruler >}}): This page contains the instructions for each assignment. Assignments are due by **11:59 PM** on the day they're listed.
 
-::: {.callout-tip}
+:::: {.callout-tip}
 
 ## Subscribe!
 
@@ -45,7 +45,7 @@ You can subscribe to this calendar URL in Outlook, Google Calendar, or Apple Cal
 
 :::
 
-:::
+::::
 
 
 ```{r build-table, include=FALSE}
@@ -72,4 +72,4 @@ show_table <- function(group_id) {
 walk(seq(1, nrow(schedule_nested)), ~show_table(.x))
 ```
 
-:::
+:::::
