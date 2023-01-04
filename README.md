@@ -11,8 +11,7 @@ Policy Studies • Georgia State University
 
 **[Quarto](https://quarto.org/) +
 [{targets}](https://docs.ropensci.org/targets/) +
-[{renv}](https://rstudio.github.io/renv/) +
-[{xaringan}](https://github.com/yihui/xaringan) = magic! 🪄**
+[{renv}](https://rstudio.github.io/renv/) = magic! 🪄**
 
 ------------------------------------------------------------------------
 
@@ -49,24 +48,6 @@ targets::tar_make()
 ```
 
 The pipeline does several major tasks:
-
-- **Render xaringan slides to HTML and PDF**: Quarto supports HTML-based
-  slideshows through
-  [reveal.js](https://quarto.org/docs/presentations/revealjs/). However,
-  I created all my slides using
-  [{xaringan}](https://github.com/yihui/xaringan), which is based on
-  [remark.js](https://remarkjs.com/) and doesn’t work with Quarto. Since
-  I don’t have time to recreate my fancy template in reveal.js right
-  now, I want to keep using {xaringan}.
-
-  The pipeline [dynamically generates
-  targets](https://books.ropensci.org/targets/dynamic.html) for all the
-  `.Rmd` files in [`/slides/`](/slides/) and renders them using R
-  Markdown rather than Quarto.
-
-  The pipeline then uses
-  [{renderthis}](https://jhelvy.github.io/renderthis/) to convert each
-  set of HTML slides into PDFs.
 
 - **Build Quarto website**: This project is a [Quarto
   website](https://quarto.org/docs/websites/), which compiles and
