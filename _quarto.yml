@@ -4,6 +4,8 @@ project:
     - "*.qmd"
   resources:
     - "files/"
+  preview:
+    port: 3333
 
 # See https://quarto.org/docs/projects/code-execution.html#freeze
 execute:
