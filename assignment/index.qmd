@@ -8,18 +8,18 @@ You will get the most out of this seminar if you (1) attend regularly, (2) engag
 
 To help you do all this successfully, there are two assignments that serve as [commitment devices](https://en.wikipedia.org/wiki/Commitment_device) for pre-seminar preparation:
 
-- **Reading reports**: Before class on Tuesdays, you should complete all the readings and write a short summary of what you read. **You should [follow this template and instructions]().** These are due by 11:59 PM on the day before class (e.g., the reading report for January 17's seminar is due at 11:59 PM on January 16).
+- **Reading reports**: Before class on Tuesdays, you should complete all the readings and write a short summary of what you read. **You should [follow this template and instructions](/assignment/reading-report.qmd).** These are due by 11:59 PM on the day before class (e.g., the reading report for January 17's seminar is due at 11:59 PM on January 16).
 
-- **Mini presentation and discussion leading**: Once during the semester, you will be responsible for preparing a presentation and leading the discussion for a class session. During the first day of class, I will provide a spreadsheet where you will select the week you want to be responsible for. [**Complete instructions and details for this assignment are here.**]()
+- **Mini presentation and discussion leading**: Once during the semester, you will be responsible for preparing a presentation and leading the discussion for a class session. During the first day of class, I will provide a spreadsheet where you will select the week you want to be responsible for. [**Complete instructions and details for this assignment are here.**](/assignment/presentation-discussion.qmd)
 
 
 ## Essays
 
 Over the course of the semester, you will write two short essays (1,250 words each, including footnotes but excluding references). Each essay focuses on a different aspect of the course and will give you experience working with both theory and data.
 
-- **Data-based essay**: Use data from the [OECD](https://data.oecd.org/), [World Bank](https://data.worldbank.org/), [Varieties of Democracy (V-Dem) project](https://www.v-dem.net/), or [Quality of Governance (QoG) project](https://www.gu.se/en/quality-government/qog-data) to compare some aspect of the public sector across five countries. [**Complete instructions and details for this assignment are here.**]()
+- **Data-based essay**: Use data from the [OECD](https://data.oecd.org/), [World Bank](https://data.worldbank.org/), [Varieties of Democracy (V-Dem) project](https://www.v-dem.net/), or [Quality of Governance (QoG) project](https://www.gu.se/en/quality-government/qog-data) to compare some aspect of the public sector across five countries. [**Complete instructions and details for this assignment are here.**](/data/data-exploration.qmd)
 
-- **Theory in real life essay**: Apply the theories and concepts from the readings to a specific real-world issue. [**Complete instructions and details for this assignment are here.**]()
+- **Theory in real life essay**: Apply the theories and concepts from the readings to a specific real-world issue. [**Complete instructions and details for this assignment are here.**](/data/theory-in-real-life.qmd)
 
 
 ## Final project

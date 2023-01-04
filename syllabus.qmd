@@ -151,18 +151,12 @@ You can find descriptions for all the assignments on the [assignments page](/ass
 
 ```{r assignments-grades, include=FALSE}
 assignments <- tribble(
-  ~Points,   ~Assignment,
-  12 * 16.5, "Pre-class check-ins (12 × 16.5)",
-  40,        "Why nonprofits?",
-  30,        "Team charter",
-  40,        "Community, issue, mission, and vision",
-  50,        "Organizational structure",
-  50,        "Revenue plan and budget",
-  50,        "Fundraising and marketing",
-  40,        "Diversity strategy",
-  150,       "Final presentation",
-  150,       "Final portfolio",
-  2,         "Two free points to make a nice denominator"
+  ~Points, ~Assignment,
+  13 * 20, "Reading reports (13 × 20)",
+  40,      "Presentation and discussion",
+  125,     "Data-based essay",
+  125,     "Theory in real life essay",
+  250,     "Policy brief"
 ) %>%
   mutate(Percent = Points / sum(Points),
          Percent = scales::percent(Percent))

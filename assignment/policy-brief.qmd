@@ -1,0 +1,52 @@
+---
+title: "Policy brief"
+date: "2023-04-28"
+---
+
+For your final project, you will write a policy brief (3,000 words; including footnotes but excluding references). A policy brief is a concise summary of a particular issue, the policy options to deal with it, and some recommendations about the best option. In general, it is written for a non-specialized audience such as policymakers, NGO staff, journalists, and the general public. For this assignment, though, your policy brief readers are policymakers (politicians or civil servants). Assume that your readers do not have detailed knowledge about the topic/issue you explore. They are also not scientists or experts in the area of your choice. Assume that the policymakers are busy and they need to quickly understand your arguments.
+
+There are two types of policy brief: (1) advocacy briefs that argue in favor of a particular course of action, and (2) objective briefs that gives balanced information for the policymaker to make up their decision. You will choose either of these types.
+
+You will write your brief about one specific topic. Topic examples include (but are not limited to!) questions like:
+
+- Does meritocratic recruitment in bureaucracy reduce levels of public sector corruption?
+- Does gender representation in bureaucracy lead to more women-friendly policy outcomes? 
+- Does participatory philanthropy and grant making create more accountability in civil society?
+- How does quality of government impact citizens' support for government? 
+- Does impartial government foster innovative behavior of private companies?
+
+The narrower the issue is, the better your policy brief will be! I *strongly encourage* you to consult with me about your chosen topic before you get started.
+
+## General outline and requirements
+
+Broadly speaking, your brief should include:
+
+- **Title**: Clearly communicate your topic or your position
+- **Key messages**: Include a very brief summary of your policy brief 
+- **Introduction and description of the problem**: Introduce and summarize your argument; clarify the issue/problem your policy brief focuses on 
+- **Background and purpose**: Discuss the situation that led you to address the issue you selected 
+- **Findings**: Present findings from your research. You should provide evidence to support your argument.
+- **Conclusions and recommendations**: Conclusions of your policy brief and specific and actionable recommendations that you want your readers to adopt (in case of and advocacy brief) or a summary of policy alternatives that policy makers should know (in the case of an objective brief) 
+- **Bibliography**: You should provide the full bibliographic citations at the end of your policy brief so that the instructor and your readers can find these documents. I don't care what style guide you use—pick one (Chicago, APA, etc.) and be consistent. (Again, [Zotero](https://www.zotero.org/) makes this trivial!)
+
+You should use 1–2 class readings, as well as 2–3 readings from outside of class. You are expected to design your policy brief with your readers in mind. Remember that policymakers are busy people, and you need to help them quickly find and understand your argument. Consider using graphs, diagrams, maps, charts, and tables. Also consider styling your document (search Google Images for "policy brief" for a host of well-designed examples).
+
+You will submit this policy brief via iCollege.
+
+I will grade this with a rubric that I will provide later.
+
+
+## Additional resources
+
+### Useful websites for policy brief writing
+
+- FAO, ["Preparing policy briefs"](https://www.fao.org/3/i2195e/i2195e03.pdf)
+- IDRC, ["How to write a policy brief"](https://www.idrc.ca/sites/default/files/idrcpolicybrieftoolkit.pdf)
+- International Center for Policy Advocacy, ["An essential guide to writing policy briefs"](https://www.icpolicyadvocacy.org/sites/icpa/files/downloads/icpa_policy_briefs_essential_guide.pdf)
+
+### Examples of policy briefs
+
+- United Nations Economic Commission for Africa, ["Policy brief: Impact of COVID-19 in Africa"](https://hdl.handle.net/10855/43770)
+- United Nations Economic Commission for Africa, ["Regional policy brief: Transforming Food Systems"](https://www.unescwa.org/sites/default/files/pubs/pdf/transforming-food-systems-english_0.pdf)
+- [Basel Institute on Governance](https://baselgovernance.org/taxonomy/term/257)
+- [Center for Strategic & International Studies](https://www.csis.org/analysis?&type=publication&field_publication_type%5B1%5D=781&field_categories_field_tags%5B2%5D=1379)
