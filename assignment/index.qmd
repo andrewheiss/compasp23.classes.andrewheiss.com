@@ -1,0 +1,45 @@
+---
+title: "Assignments"
+---
+
+## Preparation
+
+You will get the most out of this seminar if you (1) attend regularly, (2) engage with the readings, and (3) write thoughtfully.
+
+To help you do all this successfully, there are two assignments that serve as [commitment devices](https://en.wikipedia.org/wiki/Commitment_device) for pre-seminar preparation:
+
+- **Reading reports**: Before class on Tuesdays, you should complete all the readings and write a short summary of what you read. **You should [follow this template and instructions]().** These are due by 11:59 PM on the day before class (e.g., the reading report for January 17's seminar is due at 11:59 PM on January 16).
+
+- **Mini presentation and discussion leading**: Once during the semester, you will be responsible for preparing a presentation and leading the discussion for a class session. During the first day of class, I will provide a spreadsheet where you will select the week you want to be responsible for. [**Complete instructions and details for this assignment are here.**]()
+
+
+## Essays
+
+Over the course of the semester, you will write two short essays (1,250 words each, including footnotes but excluding references). Each essay focuses on a different aspect of the course and will give you experience working with both theory and data.
+
+- **Data-based essay**: Use data from the [OECD](https://data.oecd.org/), [World Bank](https://data.worldbank.org/), [Varieties of Democracy (V-Dem) project](https://www.v-dem.net/), or [Quality of Governance (QoG) project](https://www.gu.se/en/quality-government/qog-data) to compare some aspect of the public sector across five countries. [**Complete instructions and details for this assignment are here.**]()
+
+- **Theory in real life essay**: Apply the theories and concepts from the readings to a specific real-world issue. [**Complete instructions and details for this assignment are here.**]()
+
+
+## Final project
+
+For your final project, you will write a policy brief (3,000 words; including footnotes but excluding references). A policy brief is a concise summary of a particular issue, the policy options to deal with it, and some recommendations about the best option. In general, it is written for a non-specialized audience such as policymakers, NGO staff, journalists, and the general public. For this assignment, though, your policy brief readers are policymakers (politicians or civil servants). Assume that your readers do not have detailed knowledge about the topic/issue you explore. They are also not scientists or experts in the area of your choice. Assume that the policymakers are busy and they need to quickly understand your arguments.
+
+There are two types of policy brief: (1) advocacy briefs that argue in favor of a particular course of action, and (2) objective briefs that gives balanced information for the policymaker to make up their decision. You will choose either of these types.
+You will write your brief about one specific topic. Topic examples include (but are not limited to!) questions like:
+
+- Does meritocratic recruitment in bureaucracy reduce levels of public sector corruption?
+- Does gender representation in bureaucracy lead to more women-friendly policy outcomes?
+- Does participatory philanthropy and grant making create more accountability in civil society?
+- How does quality of government impact citizens' support for government?
+- Does impartial government foster innovative behavior of private companies?
+
+The narrower the issue is, the better your policy brief will be! I *highly encourage* you to consult with me about your chosen topic before you get started.
+
+[**Complete instructions and details for this assignment are here.**]()
+
+
+## Exams
+
+There are no exams! Read a bunch of things, write some things, participate in class. That's it.
