@@ -1,11 +1,12 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|1e22695dbc9dc13c|||||||||||||||
 base_url|object|467c0f4c7700e64e|||||||||||||||
 build_ical|function|e03417a487d890d1|||||||||||||||
 build_schedule_for_page|function|429a9d4680b7572f|||||||||||||||
 class_number|object|75b11708a6f2f9d4|||||||||||||||
 here_rel|function|db01910605ef2de6|||||||||||||||
 page_suffix|object|e09c8ee15abe52ba|||||||||||||||
-readme|stem|6574963f5e358ac7|2302aa63288118b5|59456f7905eb2842|-165896733|README.html*README.qmd|t19361.0699288325s|fb8d771f707b3521|632842|file|local|vector|||0.463||
+readme|stem|62f37dcc2a04bdec|58d385e12257fe9b|63cd6fdfff05c321|-165896733|README.md*README.qmd|t19361.0821460345s|d6aac64558b789a0|7158|file|local|vector|||1.81||
 save_ical|function|32d9b5a09471f5f3|||||||||||||||
 schedule_file|stem|1670325eccc2251d|edfcdc721a78f9bb|903b9d92377ab4db|-225478245|data/schedule.csv|t19220.0975751567s|29410e4c1f5b9b75|3435|file|local|vector|||0.003||
 schedule_ical_data|stem|f7c4e8f8b36b37df|3b167474014cfa34|4a096c18cadfb493|1974290141||t19361.0699324733s|a6d8051a64448cf1|2271|rds|local|vector|||0.057||
