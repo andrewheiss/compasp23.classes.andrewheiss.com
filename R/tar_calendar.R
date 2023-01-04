@@ -13,6 +13,13 @@ save_ical <- function(df, path) {
 # easier to display the schedule by group
 build_schedule_for_page <- function(schedule_file) {
   schedule <- read_csv(schedule_file, show_col_types = FALSE) %>%
+    # read_csv() parses the deadline "11:59 PM" as an hms object, which is fine,
+    # and there's a format.hms() function that *should* allow for formatting
+    # with strptime, but it doesn't---format.hms() just coerces the whole thing
+    # to character. So here I add the deadline time to the deadline date with
+    # update() and then format it with format.Date()
+    mutate(deadline_actual = update(date, hour = hour(deadline), minute = minute(deadline)),
+           deadline_nice = format(deadline_actual, "%I:%M %p")) %>%
     mutate(group = fct_inorder(group)) %>%
     mutate(subgroup = fct_inorder(subgroup)) %>%
     mutate(var_note = ifelse(!is.na(note),
@@ -22,7 +29,7 @@ build_schedule_for_page <- function(schedule_file) {
                               glue('<span class="class-title">{title}</span>'),
                               glue('{title}'))) %>%
     mutate(var_deadline = ifelse(!is.na(deadline),
-                                 glue('&emsp;&emsp;<small>(submit by {deadline})</small>'),
+                                 glue('&emsp;&emsp;<small>(submit by {deadline_nice})</small>'),
                                  glue(""))) %>%
     mutate(var_class = ifelse(!is.na(class),
                               glue('<a href="{class}.qmd"><i class="fa-solid fa-book-open-reader fa-lg"></i></a>'),

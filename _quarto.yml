@@ -9,7 +9,7 @@ project:
 execute:
   freeze: auto  # Re-render only when source changes
 
-bibliography: files/bib/references.bib
+bibliography: files/bib/readings.bib
 csl: files/bib/chicago-author-date.csl
 description-meta: "Explore how the public and nonprofit sectors work around the world and learn how political institutions shape government and civil society"
 
@@ -17,7 +17,7 @@ website:
   title: "Comparative Public Administration"
   site-url: "https://compasp23.classes.andrewheiss.com"
 
-  favicon: "/files/icon-512.png"
+  favicon: "/files/favicon-512.png"
 
   twitter-card:
     image: "/files/social-image-sp23.png"
@@ -51,34 +51,42 @@ website:
             - class/index.qmd
         - section: "Classes"
           contents:
-            - text: "1: Defining the nonprofit sector"
-              file: class/01-class.qmd
-            - text: "2: History and theory of the nonprofit sector"
-              file: class/02-class.qmd
-            - text: "3: Mission and vision statements"
-              file: class/03-class.qmd
-            - text: "4: Regulatory issues"
-              file: class/04-class.qmd
-            - text: "5: Board governance"
-              file: class/05-class.qmd
-            - text: "6: Personnel"
-              file: class/06-class.qmd
-            - text: "7: Fundraising"
-              file: class/07-class.qmd
-            - text: "8: Budgeting and financial management"
-              file: class/08-class.qmd
-            - text: "9: Marketing"
-              file: class/09-class.qmd
-            - text: "10: PR, communications, and the internet"
-              file: class/10-class.qmd
-            - text: "11: Diversity in the nonprofit sector"
-              file: class/11-class.qmd
-            - text: "12: Ethics"
-              file: class/12-class.qmd
-            - text: "13: International nonprofits"
-              file: class/13-class.qmd
-            - text: "14: Final presentations"
-              file: class/14-class.qmd
+            - section: "1–3: Foundations of public management and governance"
+              contents:
+                - text: "1: Introduction to public administration and management"
+                  file: class/01-class.qmd
+                - text: "2: Rediscovery of bureaucracy and good governance"
+                  file: class/02-class.qmd
+                - text: "3: Quality of government and governance outcomes"
+                  file: class/03-class.qmd
+            - section: "4–9: Comparative bureaucracy and civil society"
+              contents:
+                - text: "4: Bureaucracy and governance outcomes"
+                  file: class/04-class.qmd
+                - text: "5: Bureaucracy and bureaucratic behavior"
+                  file: class/05-class.qmd
+                - text: "6: Civil society and good governnace"
+                  file: class/06-class.qmd
+                - text: "7: Civil society across countries"
+                  file: class/07-class.qmd
+                - text: "8: Representative bureaucracy and philanthropy"
+                  file: class/08-class.qmd
+                - text: "9: The OECD"
+                  file: class/09-class.qmd
+            - section: "10–13: Regional deep dives"
+              contents:
+                - text: "10: Latin America"
+                  file: class/10-class.qmd
+                - text: "11: Africa"
+                  file: class/11-class.qmd
+                - text: "12: Middle East and North Africa"
+                  file: class/12-class.qmd
+                - text: "13: Asia"
+                  file: class/13-class.qmd
+            - section: "14: Conclusion"
+              contents:
+                - text: "14: Conclusions"
+                  file: class/14-class.qmd
 
     - title: "Assignments"
       contents:
@@ -89,15 +97,6 @@ website:
           contents:
             - assignment/pre-class-check-in.qmd
             - assignment/01-why-nonprofits.qmd
-        - section: "Team assignments"
-          contents:
-            - assignment/00-team-charter.qmd
-            - assignment/01-community-issue-mission-vision.qmd
-            - assignment/02-organizational-structure.qmd
-            - assignment/03-budget-revenue-plan.qmd
-            - assignment/04-fundraising-marketing.qmd
-            - assignment/05-dei.qmd
-            - assignment/final-project.qmd
 
   page-footer:
     left: |

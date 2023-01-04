@@ -1,0 +1,12 @@
+---
+title: "Bureaucratic structures, politicization, and governance outcomes"
+date: "2023-01-31"
+---
+
+## Readings
+
+- {{< fa file-pdf >}}&ensp;[@Pardo:2011]
+
+- {{< fa file-pdf >}}&ensp;[@DahlstromLapuente:2017]
+
+- {{< fa file-pdf >}}&ensp;[@Cornell:2013]

@@ -1,0 +1,14 @@
+date-heading:
+  content: "Readings and class materials for"
+  class: "bg-class"
+date-format: "full"
+
+csl: "../files/bib/chicago-manual-of-style-17th-edition-syllabus.csl"
+citations-hover: false
+link-citations: false
+suppress-bibliography: true
+
+format:
+  html:
+    template-partials:
+      - ../html/title-block.html

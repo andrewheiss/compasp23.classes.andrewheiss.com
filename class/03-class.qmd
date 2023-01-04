@@ -1,0 +1,12 @@
+---
+title: "Quality of government and governance outcomes"
+date: "2023-01-24"
+---
+
+## Readings
+
+- {{< fa file-pdf >}}&ensp;[@Rothstein:2009]
+
+- {{< fa file-pdf >}}&ensp;[@RothsteinTeorell:2008]
+
+- {{< fa file-pdf >}}&ensp;[@JindraVaz:2019]

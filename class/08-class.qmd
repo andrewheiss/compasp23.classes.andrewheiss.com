@@ -1,0 +1,16 @@
+---
+title: "Representative bureaucracy and philanthropy"
+date: "2023-02-28"
+---
+
+## Readings
+
+- Readings on participatory grantmaking TBD
+
+- {{< fa file-pdf >}}&ensp;[@MeierMelton:2014]
+
+- {{< fa file-pdf >}}&ensp;[@RiccucciRyzin:2017]
+
+- {{< fa file-pdf >}}&ensp;[@StensotaWangnerudSvensson:2015]
+
+- {{< fa file-pdf >}}&ensp;[@SuzukiAvellaneda:2018]

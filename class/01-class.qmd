@@ -1,0 +1,29 @@
+---
+title: "Introduction, historical development of public administration and management, and recent critiques"
+date: "2023-01-10"
+---
+
+## Readings
+
+- The [syllabus](/syllabus.qmd), [class](/class/index.qmd), and [assignments](/assignment/index.qmd) pages for this class
+
+- {{< fa file-pdf >}}&ensp;[@Nelson:2021]
+
+- {{< fa file-pdf >}}&ensp;The "How to Read" section in [@Green:2021]
+
+- {{< fa file-pdf >}}&ensp;[@Powner:2016]
+
+- {{< fa file-pdf >}}&ensp;[@MeierHill:2009]
+
+
+## In-class work
+
+### Zotero and citations
+
+### Readings
+
+- {{< fa file-pdf >}}&ensp;[@Wilson:1887]
+
+- {{< fa file-pdf >}}&ensp;[@Roberts:2018]
+
+- {{< fa file-pdf >}}&ensp;[@MilwardJensenRoberts:2016]
