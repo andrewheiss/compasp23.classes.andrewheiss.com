@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.qmd. Please edit that file -->
 
-# Comparative Public Administration <a href='https://compasp23.classes.andrewheiss.com/'><img src='files/icon-512.png' align="right" height="139" /></a>
+# Comparative Public Administration <a href='https://compasp23.classes.andrewheiss.com/'><img src='files/favicon-512.png' align="right" height="139" /></a>
 
 [PMAP 8441 • Spring 2023](https://compasp23.classes.andrewheiss.com/)  
 [Andrew Heiss](https://www.andrewheiss.com/) • Andrew Young School of
