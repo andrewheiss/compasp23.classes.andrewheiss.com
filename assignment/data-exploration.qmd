@@ -10,7 +10,7 @@ You will select **one public sector issue** and **five countries** and collect t
 Broadly speaking, your essay should include:
 
 - A justification and summary of your chosen issue area and data source—why does it matter, and why should we care about what it looks like around the world?
-- A justification for your five chosen countries—why these?; are they representative of general regime types or regions.?
+- A justification for your five chosen countries—why these? are they representative of general regime types or regions?
 - A graph and/or table showing changes in your chosen measure over the past decade
 - A discussion and speculation of why the measure has changed over time—try connecting changes to political changes, civil conflicts, or economic developments
 - A discussion of what these trends might mean for the public sector more globally
