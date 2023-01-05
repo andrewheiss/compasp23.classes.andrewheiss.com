@@ -70,7 +70,7 @@ The font used throughout the site is [Public Sans](https://public-sans.digital.g
 
 The colors for the site and hex logo come from the [Tam palette](https://github.com/BlakeRMills/MetBrewer#tam) in [MetBrewer](https://github.com/BlakeRMills/MetBrewer) (`MetBrewer::met.brewer("Tam")`):
 
-```{r show-tam, fig.width=8, fig.height=1, echo=FALSE}
+```{r show-tam, fig.width=8, fig.height=1, echo=FALSE, warning=FALSE, message=FALSE}
 library(tidyverse)
 library(MetBrewer)
 
