@@ -7,10 +7,7 @@
 /_site/
 /_freeze/
 
-# knitr and caching stuff
-**/*_files/*
+# caching stuff
 **/*_cache/*
-
-README.html
 
 /.luarc.json
