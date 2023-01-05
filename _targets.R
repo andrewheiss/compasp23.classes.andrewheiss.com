@@ -42,19 +42,19 @@ list(
   ## Knit the README ----
   tar_target(workflow_graph, tar_mermaid(targets_only = TRUE, outdated = FALSE,
                                          legend = FALSE, color = FALSE)),
-  tar_quarto(readme, here_rel("README.qmd"))#,
+  tar_quarto(readme, here_rel("README.qmd")),
 
 
   ## Build site ----
-  # tar_quarto(site, path = "."),
+  tar_quarto(site, path = "."),
 
 
-  # ## Upload site ----
-  # tar_target(deploy_script, here_rel("deploy.sh"), format = "file"),
-  # tar_target(deploy_site, {
-  #   # Force dependencies
-  #   site
-  #   # Run the deploy script
-  #   if (Sys.getenv("UPLOAD_WEBSITES") == "TRUE") processx::run(paste0("./", deploy_script))
-  # })
+  ## Upload site ----
+  tar_target(deploy_script, here_rel("deploy.sh"), format = "file"),
+  tar_target(deploy_site, {
+    # Force dependencies
+    site
+    # Run the deploy script
+    if (Sys.getenv("UPLOAD_WEBSITES") == "TRUE") processx::run(paste0("./", deploy_script))
+  })
 )
