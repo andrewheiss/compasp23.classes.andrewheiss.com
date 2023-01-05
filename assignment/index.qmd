@@ -17,9 +17,9 @@ To help you do all this successfully, there are two assignments that serve as [c
 
 Over the course of the semester, you will write two short essays (1,250 words each, including footnotes but excluding references). Each essay focuses on a different aspect of the course and will give you experience working with both theory and data.
 
-- **Data-based essay**: Use data from the [OECD](https://data.oecd.org/), [World Bank](https://data.worldbank.org/), [Varieties of Democracy (V-Dem) project](https://www.v-dem.net/), or [Quality of Governance (QoG) project](https://www.gu.se/en/quality-government/qog-data) to compare some aspect of the public sector across five countries. [**Complete instructions and details for this assignment are here.**](/data/data-exploration.qmd)
+- **Data-based essay**: Use data from the [OECD](https://data.oecd.org/), [World Bank](https://data.worldbank.org/), [Varieties of Democracy (V-Dem) project](https://www.v-dem.net/), or [Quality of Governance (QoG) project](https://www.gu.se/en/quality-government/qog-data) to compare some aspect of the public sector across five countries. [**Complete instructions and details for this assignment are here.**](/assignment/data-exploration.qmd)
 
-- **Theory in real life essay**: Apply the theories and concepts from the readings to a specific real-world issue. [**Complete instructions and details for this assignment are here.**](/data/theory-in-real-life.qmd)
+- **Theory in real life essay**: Apply the theories and concepts from the readings to a specific real-world issue. [**Complete instructions and details for this assignment are here.**](/assignment/theory-in-real-life.qmd)
 
 
 ## Final project
