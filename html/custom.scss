@@ -139,7 +139,6 @@ div.sidebar-item-container .sidebar-link>code{
   color: $yellow;
 }
 
-// --bs-nav-link-hover-color: var(--bs-link-hover-color);
 
 // Footer stuff
 .nav-footer-left {
@@ -180,6 +179,10 @@ div.sidebar-item-container .sidebar-link>code{
 // Date bar
 .date-block {
   font-size: 1.1rem;
+
+  p.date {
+    margin-bottom: 0 !important;
+  }
 }
 
 .bg-class {
