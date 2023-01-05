@@ -32,7 +32,7 @@ website:
 
   navbar:
     pinned: true
-    background: "#1E466E"
+    background: "#341648"
     right:
       - syllabus.qmd
       - schedule.qmd
@@ -45,7 +45,7 @@ website:
     - title: "Classes"
       style: "docked"
       search: false
-      background: dark
+      background: light
       contents:
         - section: "Overview"
           contents:

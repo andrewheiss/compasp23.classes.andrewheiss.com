@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jost:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*-- scss:defaults --*/
 $white:    #fff !default;
@@ -13,19 +13,24 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
 
-// Hiroshige colors from MetBrewer R package
-$blue:   #1e466e !default;
-$indigo: #376795 !default;
-$purple: #480B6A !default;
-$pink:   #A52C60 !default;
-$red:    #e76254 !default;
-$orange: #ef8a47 !default;
-$yellow: #ffd06f !default;
-$green:  #02b875 !default;
-$teal:   #aadce0 !default;
-$cyan:   #72bcd5 !default;
+// Tam colors from MetBrewer R package (https://github.com/BlakeRMills/MetBrewer#tam)
+// #> MetBrewer::met.brewer("Tam")
+//
+// Supplemented with:
+// - Blue and green from the Signac palette: MetBrewer::met.brewer("Signac")
+// - Teal and cyan from https://clrs.cc/
+$blue:   #1f6e9c !default;  // Signac
+$indigo: #341648 !default;  // Tam
+$purple: #62205f !default;  // Tam
+$pink:   #9f2d55 !default;  // Tam
+$red:    #bb292c !default;  // Tam
+$orange: #ef8737 !default;  // Tam
+$yellow: #ffd353 !default;  // Tam
+$green:  #2b9b81 !default;  // Signac
+$teal:   #39CCCC !default;  // clrs.cc
+$cyan:   #7FDBFF !default;  // clrs.cc
 
-$primary:       $blue !default;
+$primary:       $purple !default;
 $secondary:     $gray-500 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -34,33 +39,32 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 
-$font-family-sans-serif:      Jost, sans-serif !default;
-$font-family-serif:           Barlow, serif !default;  /* Not actually a serif font but whatever */
+$font-family-sans-serif:      Public Sans, sans-serif !default;
+$font-family-serif:           Public Sans, serif !default;  /* Not actually a serif font but whatever */
 
-$font-size-base:              1.25rem !default;
+$font-size-base:              1.05rem !default;
 $headings-font-weight:        700 !default;
 
-$h1-font-size: $font-size-base * 2.45;
-$h2-font-size: $font-size-base * 1.85;
-$h3-font-size: $font-size-base * 1.5;
-$h4-font-size: $font-size-base * 1.2;
+$h1-font-size: $font-size-base * 2.35;
+$h2-font-size: $font-size-base * 1.8;
+$h3-font-size: $font-size-base * 1.45;
+$h4-font-size: $font-size-base * 1.1;
 $h5-font-size: $font-size-base * 1;
 $h6-font-size: $font-size-base * 0.8;
 
-$toc-font-size: 1.1rem;
+$toc-font-size: 0.95rem;
 $sidebar-font-size: 1.1rem;
 $sidebar-font-size-section: 0.9rem;
 
 $link-color: $red;
 $link-hover-color: $yellow;
 
-
 $monokai-bg: #2e3440;
 
 
 /*-- scss:rules --*/
 h2 {
-  border-bottom: none;
+  border-bottom: 1px solid $gray-500;
 }
 
 ul,
@@ -126,9 +130,16 @@ ol {
 div.sidebar-item-container .active,
 div.sidebar-item-container .show>.nav-link,
 div.sidebar-item-container .sidebar-link>code{
+  color: $orange;
+
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-brand:hover {
   color: $yellow;
 }
 
+// --bs-nav-link-hover-color: var(--bs-link-hover-color);
 
 // Footer stuff
 .nav-footer-left {
@@ -151,10 +162,10 @@ div.sidebar-item-container .sidebar-link>code{
 }
 
 .schedule-page h3 {
-  text-align: center;
+  text-align: left;
   margin-top: 3rem;
-  border-bottom: 3px solid $orange;
-  padding-bottom: 0.5rem;
+  // border-bottom: 3px solid $indigo;
+  // padding-bottom: 0.5rem;
 }
 
 .download-btn {
@@ -168,7 +179,7 @@ div.sidebar-item-container .sidebar-link>code{
 // Content page stuff
 // Date bar
 .date-block {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .bg-class {
@@ -189,7 +200,7 @@ div.sidebar-item-container .sidebar-link>code{
 
 // Slightly larger buttons
 p a.btn, .buttons span.btn {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .buttons .btn {
@@ -216,18 +227,18 @@ main {
 
 
 // Make callout text and icon bigger
-.callout.callout-style-default {
-  > div.callout-header,
-  > .callout-body {
-    font-size: 1.2rem;
-  }
-
-  .callout-icon::before {
-    height: 1.2rem;
-    width: 1.2rem;
-    background-size: 1.2rem 1.2rem;
-  }
-}
+// .callout.callout-style-default {
+//   > div.callout-header,
+//   > .callout-body {
+//     font-size: 1rem;
+//   }
+//
+//   .callout-icon::before {
+//     height: 1rem;
+//     width: 1rem;
+//     background-size: 1rem 1rem;
+//   }
+// }
 
 // Increase font size in sidebar
 .sidebar-navigation .sidebar-section .sidebar-item,
@@ -254,8 +265,12 @@ main {
 .sidebar nav[role="doc-toc"] > ul li a {
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
-}
 
+  &.active {
+    border-left: 1px solid $orange;
+    color: $orange !important;
+  }
+}
 
 // Code stuff
 // Shrink blocks of code

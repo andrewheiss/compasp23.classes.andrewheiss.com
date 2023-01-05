@@ -23,7 +23,7 @@ ical_url_absolute <- paste0(base_url, "/", schedule_ical_file)
 
 Here's your roadmap for the semester!
 
-- [**Class**](/class/index.qmd) ({{< fa book-open-reader >}}): This page contains the readings and slides for the class session. Read these **before** our in-person class.
+- [**Class**](/class/index.qmd) ({{< fa book-open-reader >}}): This page contains the readings for the class session. Read these **before** our in-person class.
 
 - [**Assignment**](/assignment/index.qmd) ({{< fa pen-ruler >}}): This page contains the instructions for each assignment. Assignments are due by **11:59 PM** on the day they're listed.
 
@@ -36,7 +36,7 @@ You can subscribe to this calendar URL in Outlook, Google Calendar, or Apple Cal
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-2}
-<p class="download-btn"><a class="btn btn-danger btn-sm" href="/`r schedule_ical_file`" role="button">{{< fa calendar-alt >}} Download</a></p>
+<p class="download-btn"><a class="btn btn-danger btn-sm" href="/`r schedule_ical_file`" role="button">{{< fa calendar-alt >}} &emsp;Download</a></p>
 :::
 
 ::: {.g-col-12 .g-col-md-10}
@@ -58,11 +58,11 @@ show_table <- function(group_id) {
     select(-subgroup) %>% 
     kbl(escape = FALSE, align = "rlcc", table.attr = 'class="schedule-table"') %>% 
     kable_styling() %>% 
-    column_spec(1, width = "20%", extra_css = "padding-right: 20px;") %>% 
-    column_spec(2, width = "50%") %>% 
+    column_spec(1, width = "15%", extra_css = "padding-right: 20px;") %>% 
+    column_spec(2, width = "55%") %>% 
     column_spec(3:4, width = "10%") %>% 
     pack_rows(index = schedule_nested$subgroup_index[[group_id]],
-              label_row_css = "border-bottom: 2px solid #000000;")
+              label_row_css = "border-bottom: 1px solid #adb5bd;")
   
   cat(tbl)
 }
