@@ -47,7 +47,13 @@ By the end of this course, you will (1) understand the varieties of the public a
 
 ## Course materials
 
-There is no textbook for this class, and all of the readings are free (!!). You will need to read 2–5 readings (generally policy papers and academic research articles) for each class session, and all of these readings will be available through the GSU library or through iCollege. **Do not purchase any articles for this class—all readings are freely accessible on iCollege.**
+There is no textbook for this class, and all of the readings are free (!!). You will need to read 2–5 readings (generally policy papers and academic research articles) for each class session, and all of these readings will be available through the GSU library or through iCollege.
+
+::: {.callout-warning}
+### Don't buy anything!
+
+**Do not purchase any articles for this class—all readings are freely accessible on iCollege.**
+:::
 
 
 ## Attendance and participation
