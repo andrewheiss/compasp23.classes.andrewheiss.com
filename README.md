@@ -83,6 +83,30 @@ graph LR
   end
 ```
 
+## Fonts and colors
+
+The font used throughout the site is [Public
+Sans](https://public-sans.digital.gov/), an open source font developed
+as part of the General Services Administration’s
+[USWDS](https://designsystem.digital.gov/) (US Web Design System) for
+making accessible federal government websites.
+
+The colors for the site and hex logo come from the [Tam
+palette](https://github.com/BlakeRMills/MetBrewer#tam) in
+[MetBrewer](https://github.com/BlakeRMills/MetBrewer)
+(`MetBrewer::met.brewer("Tam")`):
+
+    #> ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+    #> ✔ ggplot2 3.4.0      ✔ purrr   0.3.5 
+    #> ✔ tibble  3.1.8      ✔ dplyr   1.0.10
+    #> ✔ tidyr   1.2.1      ✔ stringr 1.5.0 
+    #> ✔ readr   2.1.2      ✔ forcats 0.5.2 
+    #> ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+    #> ✖ dplyr::filter() masks stats::filter()
+    #> ✖ dplyr::lag()    masks stats::lag()
+
+<img src="README_files/figure-commonmark/show-tam-1.png" width="768" />
+
 ## Licenses
 
 **Text and figures:** All prose and images are licensed under Creative

@@ -7,7 +7,8 @@ format: gfm
 ```{r, include=FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  fig.retina = 3
 )
 
 withr::with_dir(here::here(), {
@@ -60,6 +61,35 @@ The complete pipeline looks like this:
 cat("``` mermaid\n")
 cat(workflow_graph, sep = "\n")
 cat("\n```")
+```
+
+
+## Fonts and colors
+
+The font used throughout the site is [Public Sans](https://public-sans.digital.gov/), an open source font developed as part of the General Services Administration's [USWDS](https://designsystem.digital.gov/) (US Web Design System) for making accessible federal government websites.
+
+The colors for the site and hex logo come from the [Tam palette](https://github.com/BlakeRMills/MetBrewer#tam) in [MetBrewer](https://github.com/BlakeRMills/MetBrewer) (`MetBrewer::met.brewer("Tam")`):
+
+```{r show-tam, fig.width=8, fig.height=1, echo=FALSE}
+library(tidyverse)
+library(MetBrewer)
+
+pal <- met.brewer("Tam")
+
+tibble(x = 1:length(pal),
+       color = pal) %>% 
+  mutate(x_nice = glue::glue("[{x}]")) %>% 
+  mutate(across(c(color, x_nice), ~fct_inorder(.))) %>% 
+  ggplot(aes(x = color, y = 1, fill = color)) +
+  geom_tile() +
+  scale_x_discrete(expand = c(0, 0)) +
+  scale_fill_identity() +
+  facet_wrap(vars(x_nice), scales = "free_x", nrow = 1) +
+  theme_void(base_family = "Inconsolata") +
+  theme(panel.spacing.x = unit(-1, units = "pt"),
+        panel.spacing.y = unit(-0.5, units = "lines"),
+        strip.text = element_blank()) + 
+  theme(axis.text.x = element_text(margin = margin(b = 5)))
 ```
 
 
