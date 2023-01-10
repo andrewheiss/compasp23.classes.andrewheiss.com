@@ -16,14 +16,47 @@ date: "2023-01-10"
 - {{< fa file-pdf >}}&ensp;[@MeierHill:2005]
 
 
-## In-class work
+## Plan for the day
 
-### Zotero and citations
+- **Who are you all and why are you here?**
 
-### In-class readings
+- **The pains and wonders of bureaucracies + building our Global Bureaucracy**^[Good luck spelling this word correctly over and over and over this semester!] **Toolkit^™^**
+  - [Jan Banning's "Bureaucratics"](https://www.janbanning.com/gallery/bureaucratics/)
 
-- {{< fa file-pdf >}}&ensp;[@Wilson:1887]
+- **How the class works**
+  - [Mini presentation signup sheet](https://docs.google.com/spreadsheets/d/1KZZ7Ei85cb97IjnTVwiYsUiSiOSgtbc_pHVuRxPWgz4/edit?usp=sharing)
 
-- {{< fa file-pdf >}}&ensp;[@Roberts:2018]
+- **Things they don’t teach you in grad school**
 
-- {{< fa file-pdf >}}&ensp;[@MilwardJensenRoberts:2016]
+  - **How to read and annotate an article**
+
+    - [Zotero](https://www.zotero.org/) + [Zotero Connector](https://www.zotero.org/download/connectors) + [GSU's Zotero guide](https://research.library.gsu.edu/zotero)
+    - [Class Zotero group library](https://www.zotero.org/groups/compasp23)
+    - [What are DOIs?](https://apastyle.apa.org/style-grammar-guidelines/references/dois-urls)
+    - Taking and storing notes:
+      - [Zotero](https://www.zotero.org/)
+      - [Obsidian](https://obsidian.md/)
+      - [Notion](https://www.notion.so/)
+      - [OneNote](https://www.onenote.com/?public=1)
+      - [Evernote](https://evernote.com/)
+    - Things we'll read together:
+      - {{< fa file-pdf >}}&ensp;[@Wilson:1887]
+      - {{< fa file-pdf >}}&ensp;[@MilwardJensenRoberts:2016]
+      - {{< fa file-pdf >}}&ensp;[@Roberts:2018]
+
+  - [**Break!**]{.text-success}
+
+  - **How to summarize, synthesize, and write about articles**
+
+    - [Zotero in Word](https://www.zotero.org/support/word_processor_plugin_usage) + [Zotero in Google Docs](https://www.zotero.org/support/google_docs) + Zotero [in RStudio](https://posit.co/blog/rstudio-1-4-preview-citations/) or [with Markdown in general](https://www.andrewheiss.com/blog/2023/01/08/bibdesk-to-zotero-pandoc/#example-workflow-with-quarto-r-markdown-pandoc)
+    - [Summary vs. synthesis](https://www.youtube.com/watch?v=R_rnkM7jvlY) + [The Synthesis Test](https://www.youtube.com/watch?v=R_rnkM7jvlY&t=241s)
+
+  - **How to discuss an article in a seminar**
+
+  	- General summary of the article
+  	- Strengths
+  	- Weaknesses
+  	- How does it connect to other readings?
+  	- How does it connect to the broader course themes?
+  	- How does it connect to current events?
+  	- What does it add to our Global Bureaucracy Toolkit^™^?
