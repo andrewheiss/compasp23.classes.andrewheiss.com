@@ -10,3 +10,110 @@ date: "2023-01-24"
 - {{< fa file-pdf >}}&ensp;[@RothsteinTeorell:2008]
 
 - {{< fa file-pdf >}}&ensp;[@JindraVaz:2019]
+
+
+## Plan for the day
+
+- **How to discuss an article in a seminar**
+
+  - Who wrote the article? What’s their background?
+  - General summary of the article
+  - Strengths
+  - Weaknesses
+  - How does it connect to other readings?
+  - How does it connect to the broader course themes?
+  - How does it connect to current events?
+  - What does it add to our Global Bureaucracy Toolkit^™^?
+
+- **Defining and measuring governance**
+
+  - [@Fukuyama:2013]
+  - [@HolmbergRothsteinNasiritousi:2009]
+  
+- **Legitimacy and governance and impartiality**
+
+  - [@Rothstein:2009]
+  - [@RothsteinTeorell:2008]
+  - [@JindraVaz:2019]
+
+- **Playing with actual governance-related data**
+
+  - [Quality of Government (QoG) Institute data](https://www.gu.se/en/quality-government/qog-data) ([R package](http://ropengov.github.io/rqog/))
+  - [Varieties of Democracy (V-Dem) Institute data](https://www.v-dem.net/) ([R package](https://github.com/vdeminstitute/vdemdata); [R example](https://www.andrewheiss.com/blog/2022/05/20/marginalia/index.html#slopes-and-marginal-effects))
+  - [World Bank data](https://data.worldbank.org/) ([R package](https://vincentarelbundock.github.io/WDI/); [R example](http://svmiller.com/blog/2021/02/gank-world-bank-data-with-wdi-in-r/))
+  - [The World Bank's Worldwide Bureaucracy Indicators database](https://datacatalog.worldbank.org/search/dataset/0038132)
+  - [The Worldwide Governance Indicators (WGI) project](https://info.worldbank.org/governance/wgi/)
+  - [Global Multidimensional Poverty Index (MPI)](https://ophi.org.uk/multidimensional-poverty-index/)
+
+R code example: [Posit.cloud example](https://posit.cloud/content/5282186) (V-Dem doesn't work though)
+
+````markdown
+---
+title: "Examples of working with governance-related data"
+---
+
+```{{r setup, warning=FALSE, message=FALSE}}
+library(tidyverse)
+
+# remotes::install_github("ropengov/rqog")
+library(rqog)
+
+# remotes::install_github("vdeminstitute/vdemdata")
+library(vdemdata)
+
+library(WDI)
+```
+
+# Quality of Government (QoG) project
+
+```{{r}}
+qog_basic <- read_qog(which_data = "basic", data_type = "time-series")
+```
+
+```{{r}}
+afg_alb <- qog_basic %>% 
+  filter(cname %in% c("Afghanistan", "Albania")) %>% 
+  filter(year >= 2007, year <= 2020)
+
+ggplot(data = afg_alb,
+       mapping = aes(x = year, y = wbgi_gee, color = cname)) +
+  geom_line()
+```
+
+
+# Varieties of Democracy (V-Dem) project
+
+```{{r}}
+vdem_small <- vdem %>%
+  select(country_name, country_text_id, year, region = e_regionpol_6C,
+         public_sector_corruption = v2x_pubcorr, impartial_pa = v2clrspct) %>%
+  filter(country_name %in% c("Afghanistan", "Albania")) %>%
+  filter(year >= 2007, year <= 2020)
+
+ggplot(data = vdem_small,
+       mapping = aes(x = year, y = impartial_pa, color = country_name)) +
+  geom_line()
+```
+
+
+# World Bank data
+
+```{{r}}
+wdi_raw <- WDI(
+  country = "all",
+  # indicator = c("NY.GDP.PCAP.KD", "BI.PWK.PUBS.FE.ZS"),
+  indicator = c("NY.GDP.PCAP.KD"),
+  start = 2007,
+  end = 2020,
+  extra = TRUE
+)
+
+wdi_small <- wdi_raw %>% 
+  filter(country %in% c("Afghanistan", "Albania"))
+
+ggplot(data = wdi_small,
+       mapping = aes(x = year, y = NY.GDP.PCAP.KD, color = country)) +
+  geom_line()
+```
+````
+
