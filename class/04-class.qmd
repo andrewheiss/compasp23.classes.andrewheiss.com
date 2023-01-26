@@ -5,4 +5,14 @@ date: "2023-01-24"
 
 ## Readings
 
-Readings on institutions TBD!
+- {{< fa file-pdf >}}&ensp;Chapter 1 in [@North:1990]
+
+- {{< fa file-pdf >}}&ensp;Chapters 1, 11, and 12 in [@AcemogluRobinson:2012]
+
+- {{< fa file-pdf >}}&ensp;[@DiMaggioPowell:1983]
+
+- {{< fa file-pdf >}}&ensp;[@Alston:2017]
+
+### Really good but optional
+
+- {{< fa file-pdf >}}&ensp;Chapter 2 in [@Ostrom:1990]
