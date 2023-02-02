@@ -52,7 +52,7 @@ website:
             - class/index.qmd
         - section: "Classes"
           contents:
-            - section: "1–3: Foundations of public management and governance"
+            - section: "1–4: Foundations of public management and governance"
               contents:
                 - text: "1: Introduction to public administration and management"
                   file: class/01-class.qmd

@@ -7,6 +7,6 @@ date: "2023-02-07"
 
 - {{< fa file-pdf >}}&ensp;[@Pardo:2011]
 
-- {{< fa file-pdf >}}&ensp;[@DahlstromLapuente:2017]
+- {{< fa file-pdf >}}&ensp;Chapters 1 and 2 in [@DahlstromLapuente:2017]
 
 - {{< fa file-pdf >}}&ensp;[@Cornell:2013]
