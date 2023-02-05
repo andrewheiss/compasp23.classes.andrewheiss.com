@@ -5,9 +5,9 @@ date: "2023-02-07"
 
 Use data from the [OECD](https://data.oecd.org/), [World Bank](https://data.worldbank.org/), [Varieties of Democracy (V-Dem) project](https://www.v-dem.net/), or [Quality of Governance (QoG) project](https://www.gu.se/en/quality-government/qog-data) to compare some aspect of the public sector across five countries. These data sources include information about public sector labor force participation, gender proportions in bureaucracy, civil society openness and restrictions, human resource management policies, and a host of other public policy and management issues.
 
-You will select **one public sector issue** and **five countries** and collect the relevant data on the issue for **at least the past ten years** (if available). You will then summarize and visualize trends in the data and draw conclusions about the issue in these countries. You will conclude with a discussion of what the trends in these five countries might mean for the public sector in other countries.
+You will select **one public sector issue** and **five countries** and collect the relevant data on the issue for **at least the past ten years** (if available). You will then summarize and visualize trends in the data and draw conclusions about the issue in these countries. You will conclude with a discussion of what the trends in these five countries might mean for the public sector in other countries. 
 
-Broadly speaking, your essay should include:
+Your essay should be a minimum of **1,250 words**. Broadly speaking, your essay should include:
 
 - A justification and summary of your chosen issue area and data source—why does it matter, and why should we care about what it looks like around the world?
 - A justification for your five chosen countries—why these? are they representative of general regime types or regions?
@@ -17,4 +17,6 @@ Broadly speaking, your essay should include:
 
 You will submit this essay via iCollege.
 
-I will grade this with a rubric that I will provide later.
+I will grade this essay using this rubric. I *highly* recommend that you refer to the rubric when writing the essay!
+
+- {{< fa list-check >}}&ensp;[`blank_data-based-essay.xlsx`](/files/rubrics/blank_data-based-essay.xlsx)
