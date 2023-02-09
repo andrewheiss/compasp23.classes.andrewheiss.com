@@ -10,3 +10,33 @@ date: "2023-02-07"
 - {{< fa file-pdf >}}&ensp;Chapters 1 and 2 in [@DahlstromLapuente:2017]
 
 - {{< fa file-pdf >}}&ensp;[@Cornell:2013]
+
+
+
+## Article discussion reminder
+
+**How to discuss an article in a seminar**
+
+- Who wrote the article? What’s their background?
+- General summary of the article
+- Strengths
+- Weaknesses
+- How does it connect to other readings?
+- How does it connect to the broader course themes?
+- How does it connect to current events?
+- What does it add to our Global Bureaucracy Toolkit^™^?
+
+
+## Plan for the day
+
+- **Institutions and comparative public administration**
+
+  - [@DiMaggioPowell:1983]
+
+- **Bureaucratic structures, politicization, and governance outcomes**
+
+  - [@Pardo:2011]
+  - [@DahlstromLapuente:2017]
+  - [@Cornell:2013]
+
+- **Graphing helping time**
