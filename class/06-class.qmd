@@ -12,3 +12,38 @@ date: "2023-02-14"
 - {{< fa file-pdf >}}&ensp;[@OliverosSchuster:2018]
 
 - {{< fa file-pdf >}}&ensp;[@SuzukiHur:2020]
+
+
+## Article discussion reminder
+
+**How to discuss an article in a seminar**
+
+- Who wrote the article? What’s their background?
+- General summary of the article
+- Strengths
+- Weaknesses
+- How does it connect to other readings?
+- How does it connect to the broader course themes?
+- How does it connect to current events?
+- What does it add to our Global Bureaucracy Toolkit^™^?
+
+
+## Plan for the day
+
+- **Crash course in quantitative methods (i.e. how to draw lines through points)**
+
+  - [{{< fa brands r-project >}} Governance and regression Posit.cloud project](https://posit.cloud/content/5420416)
+
+  - [{{< fa file-zipper >}} Governance and regression project `.zip` file](/files/examples/governance-regression.zip)
+
+  - Data we'll play with (it's already included in the `.zip` file above too)
+    - [`vdem_2015.csv`](/files/examples/governance-regression/data/vdem_2015.csv) (for any program)
+    - [`vdem_2015.rds`](/files/examples/governance-regression/data/vdem_2015.rds) (for R)
+    - [`vdem_2015.dta`](/files/examples/governance-regression/data/vdem_2015.dta) (for Stata; you can do all this marginal effects stuff in Stata if you use [the `margins` command](https://www.stata.com/features/overview/marginal-analysis/))
+
+- **Bureaucratic structures, politicization, and bureaucratic behavior**
+
+  - [@Cooper:2018]
+  - [@ChristensenOpstrup:2018]
+  - [@OliverosSchuster:2018]
+  - [@SuzukiHur:2020]

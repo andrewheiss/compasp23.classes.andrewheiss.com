@@ -1,0 +1,183 @@
+---
+title: "Governance and regression"
+output: 
+  html_document: 
+    toc: yes
+---
+
+## Load libraries and data
+
+```{r libraries-data, warning=FALSE, message=FALSE}
+library(MASS)             # For ordered logistic regression with polr()
+library(tidyverse)        # For plotting and data manipulation
+library(plotly)           # For interactive graphs
+library(broom)            # For converting models to data frames
+library(marginaleffects)  # For working with marginal effects
+
+vdem_2015 <- readRDS("data/vdem_2015.rds")
+```
+
+## OLS (straight lines): Life expectancy explained by government effectiveness
+
+Here's what the relationship between government effectivenss and life expectancy looks like
+
+```{r message=FALSE}
+ggplot(vdem_2015, aes(x = govt_effectiveness, y = life_exp)) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
+
+Interactive plot:
+
+```{r warning=FALSE, message=FALSE}
+p1 <- ggplot(vdem_2015, aes(x = govt_effectiveness, y = life_exp)) +
+  geom_smooth(method = "lm") +
+  geom_point(aes(text = country_name))
+
+ggplotly(p1, tooltip = "all")
+```
+
+
+We can make a regression model to find the slope of that line:
+
+```{r}
+model_ols <- lm(life_exp ~ govt_effectiveness, data = vdem_2015)
+tidy(model_ols)
+```
+
+## Logistic regression (curvy lines + binary outcomes): Impartial PA explained by government effectiveness
+
+Here's what the relationship between government effectiveness and impartial public administration looks like:
+
+```{r message=FALSE}
+ggplot(vdem_2015, aes(x = govt_effectiveness, y = impartial_num)) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
+
+That line goes beyond 100% after 1ish (so there's something like a 120% chance of impartial public administration when government effectiveness is 2).
+
+Instead, we can use logistic regression to force the predictions to stay between 0 and 1
+
+```{r message=FALSE}
+ggplot(vdem_2015, aes(x = govt_effectiveness, y = impartial_num)) +
+  geom_point() +
+  geom_smooth(method = "glm", method.args = list(family = binomial(link = "logit")))
+```
+
+This works by converting the outcome to log odds and drawing a straight line through that:
+
+```{r echo=FALSE, fig.align="center", out.width="60%"}
+knitr::include_graphics("https://bayesf22-notebook.classes.andrewheiss.com/bayes-rules/13-chapter_files/figure-html/unnamed-chunk-2-1.png")
+```
+
+Here's the regression model:
+
+```{r}
+model_logit <- glm(impartial ~ govt_effectiveness, 
+                   data = vdem_2015, family = binomial(link = "logit"))
+# Log odds
+tidy(model_logit)
+```
+
+Those values make no sense on their own. We can inverse logit the intercept to find the proportion of countries with impartial PA when government effectiveness is 0:
+
+```{r}
+plogis(1.797934)
+```
+
+But that's about all we can easily get from this table. We can't really talk about the slope without working with some fancy algebra.
+
+We can convert these log odds into something called an odds ratio by exponentiating them (or unlogging them), like $e^{2.120909}$:
+
+```{r}
+exp(2.120909)
+```
+
+```{r}
+# Odds ratios
+tidy(model_logit, exponentiate = TRUE)
+```
+
+That means that a 1 unit change in government effectiveness makes it 8.3 times more likely to have impartial governance. Neat.
+
+But that's still weird. We want changes in probabilities, not relative changes in likelihood.
+
+Getting one single probability-scale slope is impossble though—the slope changes across the whole range of government effectiveness. We can plot the predicted probabilities to see that:
+
+```{r}
+plot_predictions(model_logit, condition = "govt_effectiveness")
+```
+
+We can find the instantaneous slope at any level of government effectiveness. This is also called a "marginal effect". For instance, here's the slope of that line when government effectiveness is -1, 0, and 1. 
+
+```{r}
+slopes(model_logit, newdata = datagrid(govt_effectiveness = c(-1, 0, 1)))
+```
+
+These are all percentage point changes. If you're currently at -1, a 1 unit increase in government effectiveness is associated with a 52 percentage point increase in the probability of haivng impartial PA. That's huge!
+
+If you're currently at 1, a 1 unit increase in government effectiveness is only associated with a 4 percentage point increase in the probability of having impartial PA. That's not huge!
+
+The effect of government effectiveness is thus more important or powerful in countries with low effectiveness. Reforms matter a lot there.
+
+
+## Ordered logistic regression (curvy lines + ordered categorical outcomes): Impartial PA explained by government effectiveness
+
+We cheated a little with that impartial public administration outcome before. In the Varieties of Democracy data, impartial PA is actually a 5-category ordered categorical variable with these levels:
+
+- 0: The law is not respected by public officials. Arbitrary or biased administration of the law is rampant.
+- 1: The law is weakly respected by public officials. Arbitrary or biased administration of the law is widespread.
+- 2: The law is modestly respected by public officials. Arbitrary or biased administration of the law is moderate.
+- 3: The law is mostly respected by public officials. Arbitrary or biased administration of the law is limited.
+- 4: The law is generally fully respected by the public officials. Arbitrary or biased administration of the law is very limited.
+
+To make it binary before, I collapsed the values so that 0-1 = false and 2-4 = true. But that gets rid of interesting variation in the outcome! 
+
+We can use ordered logistic regression to model the effect of government effectiveness on the level of impartiality. 
+
+Ordered logistic regression is a fancier version of regular logistic regression. Conceptually, instead of just working with a binary outcome (not impartial vs. impartial), we work with a bunch of outcomes that we force to be binary-ish (0 vs. 1-4, 0-1 vs. 2-4, 0-2 vs. 3-4, 0-3 vs. 4)
+
+This gets really complex and graphs help a lot!
+
+Here's the model:
+
+```{r message=FALSE}
+model_ologit <- polr(impartial_ord ~ govt_effectiveness, data = vdem_2015)
+tidy(model_ologit)
+```
+
+All those weird 0|1, 1|2, etc. things are called cutpoints and they show the underlying probability of having a 0 vs. 1-4, 0-1 vs. 2-4, and so on. They're on the log odds scale, and because they're a kind of intercept, so we can un-log-odds them with `plogis()`:
+
+```{r message=FALSE}
+tidy(model_ologit) %>%
+  filter(term != "govt_effectiveness") %>%
+  mutate(estimate = plogis(estimate))
+```
+
+We have a coefficient for government effectiveness, but it's a log odds value and who even knows what that means. For mathy reasons, we can't just feed it to `plogis()` to get probability-level values. We can exponentiate it ($e^{2.5227}$:
+
+```{r message=FALSE}
+tidy(model_ologit, exponentiate = TRUE) %>% 
+  filter(term == "govt_effectiveness")
+```
+
+But that's still hard to think about. A 1 unit increase in government effectiveness makes it 12 times more likely to move up a level in the 0-4 scale? Or something? That's weird.
+
+Instead, we can work with predicted values and marginal effects like we did before with regular logistic regression.
+
+Here's what the probability of having different levels of impartial PA looks like across the whole range of government effectiveness:
+
+```{r message=FALSE}
+plot_predictions(model_ologit, 
+                 condition = c("govt_effectiveness", "group"), 
+                 type = "probs")
+```
+
+That's so cool! (And it's the same kind of graph that's in Figure 3 in the Suzuki and Hur article)
+
+We can find the exact slope of each of those lines at different levels of government effectiveness. Here are the slopes when government effectiveness is -1, 0, and 1:
+
+```{r message=FALSE}
+slopes(model_ologit, newdata = datagrid(govt_effectiveness = c(-1, 0, 1)))
+```
