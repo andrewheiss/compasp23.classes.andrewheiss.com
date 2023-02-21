@@ -5,12 +5,10 @@ date: "2023-02-28"
 
 ## Readings
 
-- {{< fa file-pdf >}}&ensp;[@FoleyEdwards:1996]
-
-- {{< fa file-pdf >}}&ensp;[@SmithWiest:2005]
-
-- {{< fa file-pdf >}}&ensp;[@Wood:1990]
+- {{< fa file-pdf >}}&ensp;[@Bush:2019]
 
 - {{< fa file-pdf >}}&ensp;[@Heiss:2019]
 
-- {{< fa file-pdf >}}&ensp;[@Bush:2019]
+- {{< fa file-pdf >}}&ensp;[@Themudo:2013]
+
+- {{< fa file-pdf >}}&ensp;[@vanZyl:2014]

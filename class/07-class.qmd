@@ -5,4 +5,39 @@ date: "2023-02-21"
 
 ## Readings
 
-Readings on civil society and good governance TBD!
+- {{< fa file-pdf >}}&ensp;[@HerreroCangas:2004]
+
+- {{< fa file-pdf >}}&ensp;Chapters 5–6 in [@Putnam:1994]
+
+- {{< fa file-pdf >}}&ensp;Chapters 2–3 in [@AhmedPotter:2006]
+
+- {{< fa file-pdf >}}&ensp;[@FoleyEdwards:1996]
+
+
+
+## Article discussion reminder
+
+**How to discuss an article in a seminar**
+
+- Who wrote the article? What’s their background?
+- General summary of the article
+- Strengths
+- Weaknesses
+- How does it connect to other readings?
+- How does it connect to the broader course themes?
+- How does it connect to current events?
+- What does it add to our Global Bureaucracy Toolkit^™^?
+
+
+## Plan for the day
+
+- **What is civil society? What counts as "civil society"?**
+
+- **What does civil society do? How does it promote governance?**
+
+- **Civil society and good governance**
+
+  - [@HerreroCangas:2004]
+  - [@Putnam:1994]
+  - [@AhmedPotter:2006]
+  - [@FoleyEdwards:1996]
