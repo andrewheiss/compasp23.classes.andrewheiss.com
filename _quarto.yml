@@ -72,7 +72,7 @@ website:
                   file: class/07-class.qmd
                 - text: "8: Civil society across countries"
                   file: class/08-class.qmd
-                - text: "9: Representative bureaucracy and philanthropy"
+                - text: "~~9: Representative bureaucracy and philanthropy~~"
                   file: class/09-class.qmd
             - section: "10–14: Regional deep dives"
               contents:

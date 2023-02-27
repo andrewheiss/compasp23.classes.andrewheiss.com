@@ -1,7 +1,13 @@
 ---
 title: "Civil society across countries"
-date: "2023-02-28"
+date: "2023-03-07"
 ---
+
+::: {.callout-important}
+# Scheduling change
+
+Note the updated date. We'll talk about these readings on March 3, *not* February 28.
+:::
 
 ## Readings
 

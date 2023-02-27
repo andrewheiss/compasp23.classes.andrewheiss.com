@@ -3,6 +3,11 @@ title: "Representative bureaucracy and philanthropy"
 date: "2023-03-07"
 ---
 
+::: {.callout-warning}
+# Cancelled :(
+
+These readings are all cancelled due to scheduling issues.
+
 ## Readings
 
 - Readings on participatory grantmaking TBD
@@ -14,3 +19,4 @@ date: "2023-03-07"
 - {{< fa file-pdf >}}&ensp;[@StensotaWangnerudSvensson:2015]
 
 - {{< fa file-pdf >}}&ensp;[@SuzukiAvellaneda:2018]
+:::
