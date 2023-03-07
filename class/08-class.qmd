@@ -18,3 +18,29 @@ Note the updated date. We'll talk about these readings on March 3, *not* Februar
 - {{< fa file-pdf >}}&ensp;[@Themudo:2013]
 
 - {{< fa file-pdf >}}&ensp;[@vanZyl:2014]
+
+
+## Article discussion reminder
+
+**How to discuss an article in a seminar**
+
+- Who wrote the article? What’s their background?
+- General summary of the article
+- Strengths
+- Weaknesses
+- How does it connect to other readings?
+- How does it connect to the broader course themes?
+- How does it connect to current events?
+- What does it add to our Global Bureaucracy Toolkit^™^?
+
+
+## Plan for the day
+
+- **Theory in real life essay**
+
+- **Civil society across countries**
+
+  - [@Bush:2019]
+  - [@Heiss:2019] ([slides](/files/slides/pmap8201f19_ngos-authoritarianism.pdf))
+  - [@Themudo:2013]
+  - [@vanZyl:2014]
