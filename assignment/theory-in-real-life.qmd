@@ -1,13 +1,38 @@
 ---
 title: "Theory in real life essay"
 date: "2023-03-21"
+references:
+- id: DoshiKelleySimmons:2019
+  accessed:
+    - year: 2023
+      month: 3
+      day: 7
+  author:
+    - family: Doshi
+      given: Rush
+    - family: Kelley
+      given: Judith G.
+    - family: Simmons
+      given: Beth A.
+  citation-key: DoshiKelleySimmons:2019
+  container-title: International Organization
+  DOI: 10.1017/S0020818319000158
+  issue: '3'
+  issued:
+    - year: 2019
+  page: 611-643
+  title: >-
+    The Power of Ranking: The Ease of Doing Business Indicator and Global
+    Regulatory Behavior
+  type: article-journal
+  volume: '73'
 ---
 
 You will select one specific concept, theoretical framework, mechanism, or hypothesis from the class readings and discussions (e.g quality of government and economic development, gender representation and level of corruption, how to measure the quality of government, the relationship between civil society and political regimes, etc.) and select 2–3 readings related to the topic from the course readings. 
 
 You will summarize and synthesize the main arguments of the selected readings and then select one specific real world event or case that may or may not fit with the concept, theoretical framework, mechanism, or hypothesis that you chose. You'll conclude with a discussion of how the theories and concepts you chose help or fail to help explain the issue you selected and provide a new perspective, shed light on a neglected issue, or provide potential solutions.
 
-Broadly speaking, your essay should include:
+Your essay should be a minimum of **1,250 words**. Broadly speaking, your essay should include:
 
 - Main idea of your chosen concept, theoretical framework, mechanism, or hypothesis
 - Specific real world issue or case
@@ -15,4 +40,20 @@ Broadly speaking, your essay should include:
 
 You will submit this essay via iCollege.
 
-I will grade this with a rubric that I will provide later.
+I will grade this essay using this rubric. I *highly* recommend that you refer to the rubric when writing the essay!
+
+- {{< fa list-check >}}&ensp;[`blank_theory-in-real-life-essay.xlsx`](/files/rubrics/blank_theory-in-real-life-essay.xlsx)
+
+
+## Super short example of the general idea
+
+*(but don't use this exact example!)*
+
+- **Concept/theory/mechanism**: Measuring the quality of governance is important [@HolmbergRothsteinNasiritousi:2009], and one good way to do that is to look at the impartiality of the bureaucracy [@RothsteinTeorell:2008]. Paperwork processing speed could maybe stand in for a measure of bureaucratic impartiality and efficiency. Making it easier for citizens to do things is probably a good sign of good governance.
+
+- **Real life issue or case**: From 2002–2021, the World Bank published the [Ease of Doing Business index](https://en.wikipedia.org/wiki/Ease_of_doing_business_index) that ranked countries based on how long it took to procure business licenses. The index was designed to encourage better, faster, more impartial governance. For two decades, countries would work to improve their rankings and governments would issue national press releases when they make progress [@DoshiKelleySimmons:2019]. But in 2021, the [World Bank discontinued the index](https://www.worldbank.org/en/news/statement/2021/09/16/world-bank-group-to-discontinue-doing-business-report) after an audit showed that [Bank leaders pressured report authors to manipulate the results and rankings in 2018 and 2020](https://www.wsj.com/articles/world-bank-cancels-flagship-doing-business-report-after-investigation-11631811663). 
+
+- **How this applies**: Lots of possible angles:
+  - Impartial governance is important and countries really wanted to make progress
+  - Civil society can be used to enhance corruption [@Themudo:2013]
+  - Civil society can be used to reduce corruption (if the World Bank hadn't "turned bad" here) [@Themudo:2013]
