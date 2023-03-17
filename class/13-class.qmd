@@ -5,4 +5,21 @@ date: "2023-04-11"
 
 ## Readings
 
-Readings on public administration in the Middle East and North Africa TBD!
+- {{< fa file-pdf >}}&ensp;[@Farazmand:1999]
+
+- {{< fa file-pdf >}}&ensp;[@DixonBhuiyanUstuner:2018]
+
+- {{< fa file-pdf >}}&ensp;[@SchomakerBauer:2020]
+
+- {{< fa file-pdf >}}&ensp;[@Ali:2018]
+
+
+**One** of these country-specific articles:
+
+- {{< fa file-pdf >}}&ensp;[@Barsoum:2018]
+
+- {{< fa file-pdf >}}&ensp;[@Jreisat:2018]
+
+- {{< fa file-pdf >}}&ensp;[@UstunerYavuz:2018]
+
+- {{< fa file-pdf >}}&ensp;[@SarkerAlAthmay:2018]

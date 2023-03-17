@@ -5,4 +5,10 @@ date: "2023-03-21"
 
 ## Readings
 
-Readings on public administration in the OECD TBD!
+- {{< fa file-pdf >}}&ensp;[@SchusterMeyer-SahlingMikkelsen:2020]
+
+- {{< fa file-pdf >}}&ensp;[@ConsidineLewis:2003]
+
+- {{< fa file-pdf >}}&ensp;[@BenatiCoccia:2018]
+
+- {{< fa file-pdf >}}&ensp;[@ThomannHupeSager:2018]

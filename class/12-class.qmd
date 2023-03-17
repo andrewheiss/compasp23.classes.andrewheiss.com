@@ -5,4 +5,12 @@ date: "2023-04-04"
 
 ## Readings
 
-Readings on public administration in Africa TBD!
+- {{< fa file-pdf >}}&ensp;[@Tapscott:2021]
+
+- {{< fa file-pdf >}}&ensp;[@Brierley:2020]
+
+- {{< fa file-pdf >}}&ensp;[@YanguasBukenya:2016]
+
+- {{< fa file-pdf >}}&ensp;[@WilliamsYecalo-Tecle:2020]
+
+- {{< fa file-pdf >}}&ensp;[@HassanOMealia:2020]

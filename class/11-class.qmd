@@ -5,8 +5,13 @@ date: "2023-03-28"
 
 ## Readings
 
-Readings on public administration in Latin America TBD!
 
 - {{< fa file-pdf >}}&ensp;[@Chudnovsky:2021]
 
+- {{< fa file-pdf >}}&ensp;[@RamosMilanesi:2021]
+
+- {{< fa file-pdf >}}&ensp;[@Zurbriggen:2021]
+
 - {{< fa file-pdf >}}&ensp;[@MunoBriceno:2023]
+
+- {{< fa file-pdf >}}&ensp;[@PeetersCampos:2021]
