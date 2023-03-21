@@ -5,10 +5,34 @@ date: "2023-03-21"
 
 ## Readings
 
-- {{< fa file-pdf >}}&ensp;[@SchusterMeyer-SahlingMikkelsen:2020]
-
 - {{< fa file-pdf >}}&ensp;[@ConsidineLewis:2003]
+
+- {{< fa file-pdf >}}&ensp;[@SchusterMeyer-SahlingMikkelsen:2020]
 
 - {{< fa file-pdf >}}&ensp;[@BenatiCoccia:2018]
 
 - {{< fa file-pdf >}}&ensp;[@ThomannHupeSager:2018]
+
+
+## Article discussion reminder
+
+**How to discuss an article in a seminar**
+
+- Who wrote the article? What’s their background?
+- General summary of the article
+- Strengths
+- Weaknesses
+- How does it connect to other readings?
+- How does it connect to the broader course themes?
+- How does it connect to current events?
+- What does it add to our Global Bureaucracy Toolkit^™^?
+
+
+## Plan for the day
+
+- **Bureaucracy in the OECD**
+
+  - [@ConsidineLewis:2003]
+  - [@SchusterMeyer-SahlingMikkelsen:2020]
+  - [@BenatiCoccia:2018]
+  - [@ThomannHupeSager:2018] (see [this](https://www.thestar.com/news/canada/2015/04/29/ontarios-winter-roads-are-less-safe-since-privatization-auditor.html) and [this](https://www.statnews.com/2021/04/19/for-profit-nursing-homes-hospices-bad-deal-older-americans/) and [this](https://academic.oup.com/qje/article/137/4/2213/6536944) too)
