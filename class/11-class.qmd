@@ -15,3 +15,31 @@ date: "2023-03-28"
 - {{< fa file-pdf >}}&ensp;[@MunoBriceno:2023]
 
 - {{< fa file-pdf >}}&ensp;[@PeetersCampos:2021]
+
+
+## Article discussion reminder
+
+**How to discuss an article in a seminar**
+
+- Who wrote the article? What’s their background?
+- General summary of the article
+- Strengths
+- Weaknesses
+- How does it connect to other readings?
+- How does it connect to the broader course themes?
+- How does it connect to current events?
+- What does it add to our Global Bureaucracy Toolkit^™^?
+
+
+## Plan for the day
+
+- **Weber, Marx, Dependency Theory, and public administration outside of the OECD**
+
+- **Hybrid and heterogenous Latin American bureaucracies**
+
+- **Latin American public administration**
+
+  - [@Chudnovsky:2021] and [@RamosMilanesi:2021]
+  - [@Zurbriggen:2021]
+  - [@MunoBriceno:2023] 
+  - [@PeetersCampos:2021]
