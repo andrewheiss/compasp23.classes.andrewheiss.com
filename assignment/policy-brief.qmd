@@ -26,14 +26,16 @@ Broadly speaking, your brief should include:
 - **Introduction and description of the problem**: Introduce and summarize your argument; clarify the issue/problem your policy brief focuses on 
 - **Background and purpose**: Discuss the situation that led you to address the issue you selected 
 - **Findings**: Present findings from your research. You should provide evidence to support your argument.
-- **Conclusions and recommendations**: Conclusions of your policy brief and specific and actionable recommendations that you want your readers to adopt (in case of and advocacy brief) or a summary of policy alternatives that policy makers should know (in the case of an objective brief) 
+- **Conclusions and recommendations**: Conclusions of your policy brief are specific and actionable recommendations that you want your readers to adopt (in case of an advocacy brief) or a summary of policy alternatives that policymakers should know (in the case of an objective brief) 
 - **Bibliography**: You should provide the full bibliographic citations at the end of your policy brief so that the instructor and your readers can find these documents. I don't care what style guide you use—pick one (Chicago, APA, etc.) and be consistent. (Again, [Zotero](https://www.zotero.org/) makes this trivial!)
 
 You should use 1–2 class readings, as well as 2–3 readings from outside of class. You are expected to design your policy brief with your readers in mind. Remember that policymakers are busy people, and you need to help them quickly find and understand your argument. Consider using graphs, diagrams, maps, charts, and tables. Also consider styling your document (search Google Images for "policy brief" for a host of well-designed examples).
 
 You will submit this policy brief via iCollege.
 
-I will grade this with a rubric that I will provide later.
+I will grade this project using this rubric. I *highly* recommend that you refer to the rubric when writing the essay!
+
+- {{< fa list-check >}}&ensp;[`blank_policy-brief.xlsx`](/files/rubrics/blank_policy-brief.xlsx)
 
 
 ## Additional resources
