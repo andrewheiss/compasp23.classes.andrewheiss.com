@@ -14,3 +14,29 @@ date: "2023-04-04"
 - {{< fa file-pdf >}}&ensp;[@WilliamsYecalo-Tecle:2020]
 
 - {{< fa file-pdf >}}&ensp;[@HassanOMealia:2020]
+
+
+## Article discussion reminder
+
+**How to discuss an article in a seminar**
+
+- Who wrote the article? What’s their background?
+- General summary of the article
+- Strengths
+- Weaknesses
+- How does it connect to other readings?
+- How does it connect to the broader course themes?
+- How does it connect to current events?
+- What does it add to our Global Bureaucracy Toolkit^™^?
+
+
+## Plan for the day
+
+- **Review of public administration outside of the OECD + modernization theory**
+
+- **African public administration**
+
+  - [@Tapscott:2021] and [@YanguasBukenya:2016]
+  - [@Brierley:2020]
+  - [@WilliamsYecalo-Tecle:2020]
+  - [@HassanOMealia:2020]
