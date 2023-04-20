@@ -14,3 +14,39 @@ date: "2023-04-18"
 
 - {{< fa file-pdf >}}&ensp;[@HouLiuYang:2018]
 - {{< fa file-pdf >}}&ensp;[@ZhiPearson:2017]
+
+
+## Article discussion reminder
+
+**How to discuss an article in a seminar**
+
+- Who wrote the article? What’s their background?
+- General summary of the article
+- Strengths
+- Weaknesses
+- How does it connect to other readings?
+- How does it connect to the broader course themes?
+- How does it connect to current events?
+- What does it add to our Global Bureaucracy Toolkit^™^?
+
+
+## Plan for the day
+
+- **Mini presentation and group discussion**
+
+- **Review of past region-specific theories and exploration of how they apply to East Asia**
+
+- **Public administration in East Asia**
+
+  - [@Kim:2017]
+  - [@Roberts:2017]
+
+- **Not China**
+
+  - [@Gomide:2022]
+  - [@YenLiuWon:2022]
+
+- **China**
+
+  - [@HouLiuYang:2018]
+  - [@ZhiPearson:2017]
